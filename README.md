@@ -27,7 +27,7 @@ docker run --rm -it --volume $(pwd)/share_folder:/mnt/jmeter use-for-generate-rm
 cd bin/
 # key in the information
 sh create-rmi-keystore.sh
-mv rmi_keystore.jks
+mv rmi_keystore.jks /mnt/jmeter
 exit
 
 # delete docker image
